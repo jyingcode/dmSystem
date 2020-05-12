@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14px;
+}
+
+.center {
+  text-align: center;
+}
+
+.no_data {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cont{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.icon{
+    width: 28px;
+    height:28px;
+    display:inline-block;
+    vertical-align: -7px;
+    margin-right: 10px;
+}
+.bi{
+    background: url("./statics/images/bi.png") no-repeat center center;
+    background-size: cover;
+}
+.dope{
+    background: url("./statics/images/dope.png") no-repeat center center;
+    background-size: cover;
+}
+.money{
+    background: url("./statics/images/money.png") no-repeat center center;
+    background-size: cover;
+}
